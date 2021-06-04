@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Spartan", sans-serif;
+	max-width: 100vw;
+	max-height: 100vh;
+	background-color: black;
+}
+
+.header {
+	/* height: 18vh; */
+	width: 100vw;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 1.5rem;
+	font-size: 60%;
+	padding: 3rem 0rem 1.5rem 0rem;
+}
+
+.footer {
+	/* height: 10vh; */
+	width: 100vw;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 60%;
+	padding: 2rem 0rem 2rem 0rem;
+}
+
+.full-container {
+	background-image: linear-gradient(#2c3f59, #0e1826);
+	height: 58vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .progress {
+	width: 0%;
+	transition: width 1s linear;
+} */
+
+.botoneraA {
+	margin: 0.5rem;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.botoneraB {
+	margin: 0.5rem;
+	width: 80%;
+	display: flex;
+}
+
+.boton {
+	border: none;
+	border-radius: 4px;
+	width: 100%;
+	margin: 2px;
+	padding: 1.5rem 0.5rem;
+	text-decoration: none;
+	background: #375c8c;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+.boton:active {
+	transform: scale(0.99);
+	background: #2d4b72;
+}
+
+@media screen and (min-width: 769px) {
+	.header {
+		font-size: 90%;
+	}
+	.footer {
+		font-size: 80%;
+	}
+}

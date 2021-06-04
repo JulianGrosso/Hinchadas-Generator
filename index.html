@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hinchadas de Pandemia | v1.0</title>
+
+		<link
+			rel="icon"
+			type="image/ico"
+			sizes="32x32"
+			href="/assets/img/favicon.ico"
+		/>
+
+		<link rel="stylesheet" href="/css/style.css" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<h1>HINCHADAS generator</h1>
+			<h4>PONELE HINCHAS A LOS PARTIDOS SIN PÚBLICO</h4>
+		</header>
+
+		<section class="full-container">
+			<div class="botoneraA">
+				<button id="reaccion-1" class="boton">GOL</button>
+				<button id="reaccion-2" class="boton">UHH</button>
+				<button id="reaccion-3" class="boton">EHH</button>
+				<button id="reaccion-4" class="boton">SILBIDOS</button>
+			</div>
+			<div class="botoneraB">
+				<button id="boton-hinchada-01" class="boton progress">
+					HINCHADA 01
+				</button>
+			</div>
+			<div class="botoneraB">
+				<button id="boton-hinchada-02" class="boton">HINCHADA 02</button>
+			</div>
+			<div class="botoneraB">
+				<button id="boton-cancha" class="boton">ESTADIO</button>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<p>Desarrollado por Julián Grosso | 2021</p>
+		</footer>
+
+		<!-- ---------- Audios Base ---------- -->
+
+		<audio loop id="audio-base01">
+			<source src="/assets/audio/audio-estadio_01.mp3" type="audio/mp3" />
+		</audio>
+
+		<audio loop id="audio-base02">
+			<source src="/assets/audio/audio-estadio_02.mp3" type="audio/mp3" />
+		</audio>
+
+		<audio loop id="audio-base03">
+			<source src="/assets/audio/audio-estadio_03.mp3" type="audio/mp3" />
+		</audio>
+
+		<!-- ---------- Audios Botones ---------- -->
+
+		<audio id="audio-hinchada-01">
+			<source
+				src="/assets/audio/audio-hinchada-canto_01.mp3"
+				type="audio/mp3"
+			/>
+		</audio>
+
+		<audio id="audio-hinchada-02">
+			<source
+				src="/assets/audio/audio-hinchada-canto_02.mp3"
+				type="audio/mp3"
+			/>
+		</audio>
+
+		<audio id="audio-gol">
+			<source src="/assets/audio/audio-gol_v1.mp3" type="audio/mp3" />
+		</audio>
+
+		<audio id="audio-uh">
+			<source src="/assets/audio/audio-uh_v1.mp3" type="audio/mp3" />
+		</audio>
+
+		<audio id="audio-eh">
+			<source src="/assets/audio/audio-eh_v1.mp3" type="audio/mp3" />
+		</audio>
+
+		<audio id="audio-silbidos">
+			<source src="/assets/audio/audio-silbidos_v1.mp3" type="audio/mp3" />
+		</audio>
+
+		<!-- ---------- ---------- ---------- -->
+
+		<script src="/js/funciones.js"></script>
+	</body>
+</html>
