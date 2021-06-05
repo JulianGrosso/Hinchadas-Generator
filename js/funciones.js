@@ -41,6 +41,7 @@ botonCancha.onclick = function () {
 
 const botonReaccion01 = document.getElementById("reaccion-1");
 const audioReaccion01 = document.getElementById("audio-gol");
+audioReaccion01.volume = 0.9;
 
 botonReaccion01.onclick = function () {
 	if (audioReaccion01.paused) {
