@@ -3,18 +3,6 @@ const audioBase01 = document.getElementById("audio-base01");
 const audioBase02 = document.getElementById("audio-base02");
 const audioBase03 = document.getElementById("audio-base03");
 
-function autoplay() {
-	setTimeout(function () {
-		if (audioBase01.paused && audioBase02.paused && audioBase03.paused) {
-			audioBase01.play();
-			audioBase02.play();
-			audioBase03.play();
-		}
-	}, 1000);
-}
-
-autoplay();
-
 botonCancha.onclick = function () {
 	if (audioBase01.paused && audioBase02.paused && audioBase03.paused) {
 		audioBase01.play();
